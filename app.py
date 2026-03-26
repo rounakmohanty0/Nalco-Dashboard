@@ -504,6 +504,6 @@ def filter_table(severity):
 # STEP 8 — RUN THE APP
 # ============================================================
 
-if __name__ == '__main__':
-    app.run(debug=False)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
     
